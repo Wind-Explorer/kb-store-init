@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Store</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
-  <h1>keybaord store</h1>
-  <p>sell keybaords</p>
-  <p>Jing Fan is gay</p>
-  <p>hi</p>
-  <p> I love ccp</p>
+    <nav>
+        <div class="logo">Keyboard Store</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="cart-icon" id="cart-icon">
+            <i class="fa fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </nav>
+    <header>
+        <h1>Welcome to Keyboard Store</h1>
+    </header>
+    <main class="center-content">
+        <div class="product-card">
+            <div class="img">
+                <img src="keyboard.jpeg" alt="Mechanical Keyboard">
+            </div>
+            <div class="product-info">
+                <h2>Wireless Keyboard</h2>
+                <p>A reliable wireless keyboard for your workspace.</p>
+                <p class="price">$49.99</p>
+                <button class="add-to-cart" data-name="Wireless Keyboard" data-price="49.99">Add to Cart</button>
+            </div>
+        </div>
+        
+        
+        <!-- Add more product cards here -->
+    </main>
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please feel free to contact us:</p>
+        <p>Email: info@keyboardstore.com</p>
+        <p>Phone: +1-123-456-7890</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Keyboard Store. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
