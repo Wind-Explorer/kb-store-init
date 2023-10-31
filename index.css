@@ -48,6 +48,9 @@ nav {
   display: flex;
   align-items: center;
   cursor: pointer;
+  padding: 10px;
+  color: whitesmoke ;
+  font-size: 25px;
 }
 
 .cart-icon img {
@@ -55,14 +58,14 @@ nav {
 }
 
 #cart-count {
-  background-color: #f00;
+  background-color: red;
   color: #fff;
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 5px;
   font-size: 12px;
   position: absolute;
   margin-top: -15px;
-  margin-left: 10px;
+  margin-left: 18px;
 }
 
 /* Rest of your CSS styling remains the same */
@@ -83,6 +86,47 @@ nav {
   max-width: 300px;
   text-align: center;
   color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
+
+
+
+.product-card .img {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.product-card .img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product-card h2, .product-card p {
+  text-align: center;
+}
+
+.add-to-cart {
+  font-size: 20px;
+  background-color: #171717;
+  color: whitesmoke;
+  border: #222 1px solid;
+  border-radius: 5px ;
+  padding: 10px;
+  width: 100%;
 }
 
 .contact-section {
